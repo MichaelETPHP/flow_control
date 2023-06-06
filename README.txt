@@ -5,3 +5,17 @@ most used routers under Flow Control component are:
 Choice
 Scatter-Gather
 First Successful
+
+
+Database TB
+
+CREATE TABLE `data_tb_1` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(50) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+	`phone` VARCHAR(50) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=11
+;
